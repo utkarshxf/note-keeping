@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context="com.example.orion.notekeeping.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4pt"
+        android:background="@drawable/background_layout"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nametv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A9A9A9"
+            android:text="title"
+
+            android:textColor="#424242"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/destv"
+            android:paddingLeft="10pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wike was elected as a two-term Executive Chairman of Obio Akpor Local Government Area from 1999 to 2007.[2] He was appointed Minister of State for Education on 14 July 2011. Wike was later appointed the Acting Minister of Education, after Mrs Ruqqayatu was sacked but resigned before finishing his term to campaign for Governor of Rivers State. He was replaced by Viola Onwuliri.[" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Space
+                android:layout_width="249dp"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/editbut"
+                android:layout_width="20pt"
+                android:layout_height="15pt"
+                android:layout_weight="2"
+
+                app:srcCompat="@drawable/edit" />
+
+            <ImageView
+                android:id="@+id/delbut"
+                android:layout_width="61dp"
+                android:layout_height="match_parent"
+
+                app:srcCompat="@drawable/del" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
